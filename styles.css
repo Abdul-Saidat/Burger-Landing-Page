@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+
+body {
+  background-image: url(./assets/images/background.png);
+  font-family: poppins, Inter;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #571a00;
+}
+
+h1,
+span,
+p {
+  color: #571a00;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h1 > p {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.login,
+.sign-up {
+  font-family: poppins, inter;
+  border: 1.5px solid #571a00;
+  border-radius: 15px;
+  padding-inline: 18px;
+  padding-block: 5px;
+}
+
+.login {
+  background-color: #571a00;
+  color: white;
+}
+
+.sign-up {
+  color: #571a00;
+  background-color: transparent;
+}
+
+.content-section {
+  display: flex;
+}
+
+.description {
+  margin-top: 200px;
+  margin-left: 53px;
+}
+
+.desc-1 {
+  line-height: 25px;
+}
+
+.start {
+  margin-top: 45px;
+}
+
+.starting,
+.demo-video {
+  font-family: poppins, inter;
+  border: 1.5px solid #571a00;
+  border-radius: 15px;
+  padding-inline: 20px;
+  padding-block: 7px;
+}
+
+.starting {
+  color: white;
+  background-color: #571a00;
+}
+
+.demo-video {
+  background-color: transparent;
+  color: #571a00;
+}
+
+.burger-logo {
+  margin-left: 70px;
+}
