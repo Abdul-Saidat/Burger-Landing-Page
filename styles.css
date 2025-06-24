@@ -90,7 +90,7 @@ li {
 .overlay-menu ul li:hover {
   cursor: pointer;
   transform: scale(1.02);
-  transition: all 0.9s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .desktop-navs {
@@ -181,13 +181,13 @@ h1 > p {
 .starting:hover {
   cursor: pointer;
   transform: scale(1.02);
-  transition: all 0.9s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .demo-video:hover {
   cursor: pointer;
   transform: scale(1.02);
-  transition: all 0.9s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .demo-video {
@@ -236,7 +236,7 @@ h1 > p {
   .desktop-links ul li:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transition: all 0.9s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   .login,
@@ -306,13 +306,13 @@ h1 > p {
   .demo-video:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   .starting:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   .starting,
