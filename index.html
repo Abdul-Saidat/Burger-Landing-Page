@@ -13,27 +13,31 @@
           <img src="./assets/images/burger-logo.png" alt="burger-logo" />
           <!--- for mobile view -->
           <div class="sub-header">
-           <div class="mobile-btns">
-                <button class="login">Login</button>
-                <button class="sign-up">Sign Up</button>
+            <div class="mobile-btns">
+              <button class="login">Login</button>
+              <button class="sign-up">Sign Up</button>
+            </div>
+
+            <input
+              type="checkbox"
+              name="hamburger"
+              id="menu-toggle"
+              class="menu-toggle"
+            />
+            <label for="menu-toggle" class="dropdown">&#9776; </label>
+            <div class="overlay-menu">
+              <nav class="nav-links">
+                <label for="menu-toggle" class="close-btn">&times;</label>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
-          
-          <input type="checkbox" name="hamburger" id="menu-toggle" class="menu-toggle">
-          <label for="menu-toggle" class="dropdown">&#9776;
-          </label>
-          <div class="overlay-menu">
-            <nav class="nav-links">
-              <label for="menu-toggle" class="close-btn">&times;</label>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </nav>
-          </div>
-          </div>
-           <div class="desktop-links">
+          <div class="desktop-links">
             <nav>
               <ul>
                 <li><a href="#">Home</a></li>
@@ -68,16 +72,24 @@
         </div>
         <div class="start">
           <button class="starting">Get Started</button>
-          <button class="demo-video"> <img src="./assets/images/circle-play-solid.svg" width="20px"  alt="">Watch Demo</button>
-          
+          <button class="demo-video">
+            <img
+              src="./assets/images/circle-play-solid.svg"
+              width="20px"
+              alt=""
+            />Watch Demo
+          </button>
         </div>
       </section>
       <section>
         <div class="burger-logo">
-          <img class="burger" src="./assets/images/side-img.png" alt="Tasty burger image" />
+          <img
+            class="burger"
+            src="./assets/images/side-img.png"
+            alt="Tasty burger image"
+          />
         </div>
       </section>
-      <!-- Content goes here -->
     </main>
   </body>
 </html>
